@@ -6,6 +6,7 @@ from coinbase.wallet.client import Client
 from credentials import *
 import sys
 
+# Global values fo total amount of each
 eth_total = 0
 btc_total = 0
 
@@ -99,10 +100,12 @@ def trade_btc():
     # Keep track of buys ($USD)
     btc_total_buy = 0
 
-    # Set amount of bitcoins to buy (low to test with)
+    # Set amount of bitcoin to buy (low to test with)
     amount = '.000001'
 
     #TODO: implement logic for buying and selling
+
+
 
 
 if __name__ == '__main__':
